@@ -4,8 +4,7 @@
 
 # Use Node image, maintained by Docker:
 # hub.docker.com/r/_/node/
-# FROM node:lts-alpine3.19
-FROM node:20-alpine3.19
+FROM node:20-alpine
 
 # Copy source dependencies
 COPY src/ /app/src/
